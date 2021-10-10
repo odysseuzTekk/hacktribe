@@ -1,4 +1,4 @@
 [submodule "scripts"]
 	path = scripts
-	url = ../e2-scripts.git
+	url = https://github.com/bangcorrupt/e2-scripts
 	branch = master
