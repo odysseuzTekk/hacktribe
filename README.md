@@ -12,9 +12,9 @@ Electribe 2 hacks, based on sampler firmware version 2.02.
 - Supports synth and sampler hardware
 
 
-## [How To](../../wiki/firmware-patch)
+### [How To](../../wiki/firmware-patch)
 
-## [What If?](../../wiki/de-brick)
+### [What If?](../../wiki/de-brick)
 
 ## License
 Contents of `patch` and `samples` directories are not open source and are not covered the GPL.
