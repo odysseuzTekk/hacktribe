@@ -31,7 +31,7 @@ Optionally, set custom init pattern:
 
 Use `samples/hacktribe-blank-e2sSample.all` to free up sampling time.
 
-## [What If?](../../wiki/de-brick)
+## [What If?](../../wiki/debrick)
 
 ## License
 Contents of `patch` and `samples` directories are not open source and are not covered the GPL.
