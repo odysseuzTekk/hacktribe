@@ -10,6 +10,38 @@ App loaded to external RAM at 0xc0000000.
 
 <br/>
 
+
+## Is it Bricked?
+
+
+### Boots to prompt
+
+If it boots up to a prompt asking for update, it's not bricked.
+
+Complete **only** [Prepare SD Card](#Prepare-SD-Card) step and reboot.  
+
+Device should flash back to factory firmware.  
+
+<br/>
+
+### Screen lights up
+
+If the screen lights up but boot does not complete, the secondary bootloader (SBL) is fine but the app is corrupt.
+
+Complete all steps in [RPi and OpenOCD](#RPi-and-OpenOCD) section.
+
+<br/>
+
+### No visible response
+
+If the screen does not light up, either SBL is corrupt or there is a hardware issue.
+
+SBL may be corrupted when writing flash memory using ISP clip and FlashROM.
+
+
+<br/>
+
+
 ## RPi and OpenOCD
 
 ### Install and Setup
