@@ -11,6 +11,8 @@ Electribe 2 hacks, based on sampler firmware version 2.02.
 - Custom init pattern
 - Supports synth and sampler hardware
 
+See [demo video](https://www.youtube.com/watch?v=n0wXUqgfa9Q) by [Thomas Herrmann](https://github.com/BKLronin).
+
 
 ## [How To](../../wiki/firmware-patch)
 
