@@ -37,12 +37,16 @@ Edit header if currently running synth firmware:
 
 Set custom init pattern (optional):
 
-    python scripts/e2s-init-pat.py hacked-SYSTEM.VSB init-pat.e2spat
+    python scripts/e2s-init-pat.py hacked-SYSTEM.VSB your-init-pat.e2spat
 
 
-Move hacked-SYSTEM.VSB to SD card, rename to SYSTEM.VSB, follow the usual firmware update procedure and reboot.
+Move hacked-SYSTEM.VSB to SD card `System` directory and rename to SYSTEM.VSB.
 
-**IMPORTANT:** Immediately after first boot, import `samples/hacktribe-blank-e2sSample.all` to prevent memory errors when saving samples. (See [#9](/../../issues/9)).
+**IMPORTANT:** 
+
+Remove any e2sSample.all files from the `KORG/electribe sampler/Sample` directory before first boot into hacktribe.
+
+Immediately after first boot, import `samples/hacktribe-blank-e2sSample.all` to prevent memory errors when saving samples. (See [#9](/../../issues/9)).
 
 
 ## [What If?](../../wiki/debrick)
