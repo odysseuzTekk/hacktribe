@@ -21,6 +21,7 @@ Clone the repo, including submodules:
     git clone --recursive https://github.com/bangcorrupt/hacktribe.git
     cd hacktribe
 
+
 Download Electribe Sampler firmware version 2.02 and move `SYSTEM.VSB` to `hacktribe` directory
 
 Apply patch to Electribe Sampler firmware version 2.02 only:
@@ -29,16 +30,20 @@ Apply patch to Electribe Sampler firmware version 2.02 only:
     bspatch SYSTEM.VSB hacked-SYSTEM.VSB patch/hacktribe-2.patch
     sha256sum -c hash/hacked-SYSTEM.VSB.sha
 
+
 Edit header if currently running synth firmware:
     
     python scripts/e2-header.py hacked-SYSTEM.VSB
 
-Optionally, set custom init pattern:
+Set custom init pattern (optional):
 
     python scripts/e2s-init-pat.py hacked-SYSTEM.VSB init-pat.e2spat
 
 
-Use `samples/hacktribe-blank-e2sSample.all` to free up sampling time.
+Move hacked-SYSTEM.VSB to SD card, rename to SYSTEM.VSB, follow the usual firmware update procedure and reboot.
+
+**IMPORTANT:** Immediately after first boot, import `samples/hacktribe-blank-e2sSample.all` to prevent memory errors when saving samples. (See [#9](/../../issues/9)).
+
 
 ## [What If?](../../wiki/debrick)
 
