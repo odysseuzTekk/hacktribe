@@ -2,6 +2,3 @@
 	path = scripts
 	url = ../e2-scripts
 	branch = master
-[submodule "wiki"]
-	path = wiki
-	url = ../hacktribe.wiki.git
