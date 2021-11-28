@@ -14,10 +14,10 @@ Electribe 2 hacks, based on sampler firmware version 2.02.
 See [demo video](https://www.youtube.com/watch?v=n0wXUqgfa9Q) by [Thomas Herrmann](https://github.com/BKLronin).
 
 ## How To
-See **[Firmware Patch](../../wiki/firmware-patch)**
+See **[Firmware Patch](../../wiki/firmware-patch)**.
 
 ## What If?
-See **[Debrick](../../wiki/debrick)**
+See **[Debrick](../../wiki/debrick)**.
 
 ## Wtf?
 If you have questions or need support, see **[Discussions](../../discussions)**.
