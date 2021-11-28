@@ -19,6 +19,11 @@ See **[Firmware Patch](../../wiki/firmware-patch)**
 ## What If?
 See **[Debrick](../../wiki/debrick)**
 
+## Wtf?
+If you have questions or need support, see **[Discussions](../../discussions)**.
+
+If something is not working, post a bug report in the **[Issue Tracker](../../issues)**.
+
 ## License
 Contents of `patch` and `samples` directories are not open source and are not covered the GPL.
 
