@@ -20,7 +20,9 @@ See **[Firmware Patch](../../wiki/firmware-patch)**.
 See **[Debrick](../../wiki/debrick)**.
 
 ## Wtf?
-If you have questions or need support, see **[Discussions](../../discussions)**.
+See **[FAQ](../../wiki/faq)**.
+
+If you have more questions or need support, see **[Discussions](../../discussions)**.
 
 If something is not working, post a bug report in the **[Issue Tracker](../../issues)**.
 
